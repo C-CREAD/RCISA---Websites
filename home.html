@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style type="text/css">
+        $grid-breakpoints: (
+            xs: 0,
+            sm: 576px,
+            md: 768px,
+            lg: 992px,
+            xl: 1200px,
+            xxl: 1400px
+        );
+
+        label {
+            color: #8ca2b4;
+        }
+
+        #background-1 {
+            background-repeat: no-repeat;
+            background-image: url("./images/background-1-1.jpg");
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px
+        }
+
+        #our-story {
+            height: 530px;
+            width: auto;
+            radius: 24px
+        }
+
+        body {
+            padding-top: 56px;
+        }
+
+        h2 {
+            color: orange;
+        }
+
+        a {
+            color: #093a63;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand fixed-top" style="background-color:#f0f5f9;">
+        <img src="images/Logo.png" alt="Logo" class="mr-auto">
+        <ul class="navbar-nav flex-row ml--md-auto d-none d-md-flex">
+            <li class="nav-item">
+                <a class="nav-link active" href="#"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Our Story</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Events</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Media</b></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Introduction -->
+    <div id="background-1">
+        <div class="container">
+            <h1 class="display-3" style="color: white;">REFORMED CHURCH INTERNATIONAL SOUTH AFRICA</h1>
+            <p class="text-justify" style="color: white;">Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. </p>
+            <button class="btn btn-success btn-lg">Plan a visit</button>
+            <button class="btn btn-secondary btn-lg">Our Story</button>
+        </div>
+    </div>
+
+    <!-- Upcoming Events -->
+    <div class="jumbotron" style="background-color: #f0f5f9;">
+        <div class="container-fluid">
+            <section id="schedule">
+                <h4 class="text-justify" style="color: #42cd6c;">Exciting Things to Look Forward To</h4>
+                <h1 class="text-justify" style="color: #093a63;">Upcoming Events</h1>
+
+                <div class="card-deck mb-3 text-center">
+                    <!-- Event 1 -->
+                    <div class="card mb-3 shadow-sm">
+                        <div class="card-header" style="background-color: #336eb1">
+                            <h4 class="my-0 font-weight-normal" style="color: white;">Church Council Meeting</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">30 Nov</h2>
+                            <p>Hosted by:</p>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><img src="images/location-icon.png"> Pretoria Congregation</li>
+                                <li><img src="images/time-icon.png"> 09 am - 11 am</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="card mb-3 shadow-sm">
+                        <div class="card-header" style="background-color: #336eb1">
+                            <h4 class="my-0 font-weight-normal" style="color: white;">Big Sunday</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">01 Dec</h2>
+                            <p>Hosted by:</p>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><img src="images/location-icon.png"> Kempton Park Congregation</li>
+                                <li><img src="images/time-icon.png"> 10 am - 03 pm</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Event 3 -->
+                    <div class="card mb-3 shadow-sm">
+                        <div class="card-header" style="background-color: #336eb1">
+                            <h4 class="my-0 font-weight-normal" style="color: white;">Youth Camp</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">06 - 08 Dec</h2>
+                            <p>Hosted by:</p>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><img src="images/location-icon.png"> Durban Congregation</li>
+                                <li><img src="images/time-icon.png"> Friday: 7 pm - 9:30 pm</li>
+                                <li>Saturday: 8 am - 9:30 pm</li>
+                                <li>Sunday: 9 am - 10:30 am</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Event 4 -->
+                    <div class="card mb-3 shadow-sm">
+                        <div class="card-header" style="background-color: #336eb1">
+                            <h4 class="my-0 font-weight-normal" style="color: white;">Sunday Service</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">08 Dec</h2>
+                            <p>Hosted by:</p>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><img src="images/location-icon.png"> Pretoria Congregation</li>
+                                <li><img src="images/time-icon.png"> 10 am - 01 pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Our Story-->
+    <div class="jumbotron bg-dark bg-gradient">
+        <div class="container">
+            <h4 class="text-justify" style="color: #42cd6c;">Our Big Family</h4>
+            <h1 class="text-justify" style="color: white;">Our Story</h1>
+
+            <div class="d-flex flex-row-reverse">
+                <div class="col-auto">
+                    <img src="images/our-story-1.jpg" id="our-story">
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <p class="text-justify" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et congue ipsum. Praesent varius lorem dolor, sed vehicula eros congue vitae. Fusce sed vestibulum felis. Vivamus id lacinia lorem. Ut a sodales nulla. Phasellus eget hendrerit velit. Fusce consectetur quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et congue ipsum. Praesent varius lorem dolor, sed vehicula eros congue vitae. Fusce sed vestibulum felis. Vivamus id lacinia lorem. Ut a sodales nulla. Phasellus eget hendrerit velit. Fusce consectetur quis.</p>
+                    </div>
+                    <div class="row">
+                        <p class="text-justify" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et congue ipsum. Praesent varius lorem dolor, sed vehicula eros congue vitae. Fusce sed vestibulum felis. Vivamus id lacinia lorem. Ut a sodales nulla. Phasellus eget hendrerit velit. Fusce consectetur quis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visit Our Branches -->
+    <div class="jumbotron" style="background-color: #f0f5f9;">
+        <div class="container-fluid">
+            <h4 class="text-justify" style="color: #42cd6c;">We Would Love To Meet You!</h4>
+            <h1 class="text-justify" style="color: #093a63;">VISIT OUR BRANCHES</h1>
+            <div class="row" id="branches">
+                <div class="card-deck mb-3 text-left">
+                    <!-- Branch 1 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="border-color: #093a63; border-radius: 7%; border: 2px solid; height: auto; width: 90%;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title pricing-card-title" style="color: #093a63;">Pretoria Main</h4>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#"><img src="images/branch-button.png" style="height:auto; width:80%"></a>
+                                    </div>
+                                </div><br>
+                                <div class="row-fluid">
+                                    <img src="images/location-icon.png"> 234 Ben Schoeman, Pretoria Central, Gauteng, 012
+                                </div><br>
+                                <div class="row-fluid" style="color: #093a63; background-color: #efefef; border-radius: 5px;">
+                                    <p><img src="images/time-icon.png"> <b>09 am - 11 am</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Branch 2 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="border-color: #093a63; border-radius: 5%; border: 2px solid; height: auto; width: 90%;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title pricing-card-title" style="color: #093a63;">Pretoria North</h4>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#"><img src="images/branch-button.png" style="height:auto; width:80%"></a>
+                                    </div>
+                                </div><br>
+                                <div class="row-fluid">
+                                    <img src="images/location-icon.png"> 234 Ben Schoeman, Pretoria Central,Gauteng, 012
+                                </div><br>
+                                <div class="row-fluid" style="color: #093a63; background-color: #efefef; border-radius: 5px;">
+                                    <p><img src="images/time-icon.png"> <b>09 am - 11 am</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Branch 3 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="border-color: #093a63; border-radius: 5%; border: 2px solid; height: auto; width: 90%;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title pricing-card-title" style="color: #093a63;">Mamelodi</h4>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#"><img src="images/branch-button.png" style="height:auto; width:80%"></a>
+                                    </div>
+                                </div><br>
+                                <div class="row-fluid">
+                                    <img src="images/location-icon.png"> 234 Ben Schoeman, Pretoria Central,Gauteng, 012
+                                </div><br>
+                                <div class="row-fluid" style="color: #093a63; background-color: #efefef; border-radius: 5px;">
+                                    <p><img src="images/time-icon.png"> <b>09 am - 11 am</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Branch 4 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="border-color: #093a63; border-radius: 5%; border: 2px solid; height: auto; width: 90%;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title pricing-card-title" style="color: #093a63;">Polokwane</h4>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#"><img src="images/branch-button.png" style="height:auto; width:80%"></a>
+                                    </div>
+                                </div><br>
+                                <div class="row-fluid">
+                                    <img src="images/location-icon.png"> 234 Ben Schoeman, Pretoria Central,Gauteng, 012
+                                </div><br>
+                                <div class="row-fluid" style="color: #093a63; background-color: #efefef; border-radius: 5px;">
+                                    <p><img src="images/time-icon.png"> <b>09 am - 11 am</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Branch 5 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="border-color: #093a63; border-radius: 5%; border: 2px solid; height: auto; width: 90%;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title pricing-card-title" style="color: #093a63;">Kempton Park</h4>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#"><img src="images/branch-button.png" style="height:auto; width:80%"></a>
+                                    </div>
+                                </div><br>
+                                <div class="row-fluid">
+                                    <img src="images/location-icon.png"> 234 Ben Schoeman, Pretoria Central,Gauteng, 012
+                                </div><br>
+                                <div class="row-fluid" style="color: #093a63; background-color: #efefef; border-radius: 5px;">
+                                    <p><img src="images/time-icon.png"> <b>09 am - 11 am</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Branch 6 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="border-color: #093a63; border-radius: 5%; border: 2px solid; height: auto; width: 90%;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="card-title pricing-card-title" style="color: #093a63;">Durban</h4>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#"><img src="images/branch-button.png" style="height:auto; width:80%"></a>
+                                    </div>
+                                </div><br>
+                                <div class="row-fluid">
+                                    <img src="images/location-icon.png"> 234 Ben Schoeman, Pretoria Central,Gauteng, 012
+                                </div><br>
+                                <div class="row-fluid" style="color: #093a63; background-color: #efefef; border-radius: 5px;">
+                                    <p><img src="images/time-icon.png"> <b>09 am - 11 am</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sermons -->
+    <div class="jumbotron" style="background-color: #f0f5f9;">
+        <div class="container-fluid">
+            <h4 class="text-justify" style="color: #42cd6c;">Hear the word</h4>
+            <h1 class="text-justify" style="color: #093a63;">SERMONS</h1>
+            <div class="row" id="sermons">
+                <div class="card-deck mb-3 text-left">
+                    <!-- Sermon 1 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="height: auto; width: 90%;">
+                            <img src="images/sermon-1.jpg">
+                            <div class="card-body">
+                                <p style="color: #42cd6c;"><b>16 November 2024</b></p>
+                                <h4 class="card-title pricing-card-title" style="color: #093a63;">Pretoria | Sunday Service with Rev...</h4>
+                                <button class="btn" type="button" style="border-radius: 9px; border-color: #003d82; background-color: white;">Watch Video <img src="images/external-link-icon.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sermon 2 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="height: auto; width: 90%;">
+                            <img src="images/sermon-2.jpg">
+                            <div class="card-body">
+                                <p style="color: #42cd6c;"><b>16 November 2024</b></p>
+                                <h4 class="card-title pricing-card-title" style="color: #093a63;">Pretoria | Sunday Service with Rev...</h4>
+                                <button class="btn" type="button" style="border-radius: 9px; border-color: #003d82; background-color: white;">Watch Video <img src="images/external-link-icon.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sermon 3 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="card" style="height: auto; width: 90%;">
+                            <img src="images/sermon-3.jpg">
+                            <div class="card-body">
+                                <p style="color: #42cd6c;"><b>16 November 2024</b></p>
+                                <h4 class="card-title pricing-card-title" style="color: #093a63;">Pretoria | Sunday Service with Rev...</h4>
+                                <button class="btn" type="button" style="border-radius: 9px; border-color: #003d82; background-color: white;">Watch Video <img src="images/external-link-icon.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bd-footer text-center" style="background-color: #09487b;">
+        <div class="container-fluid p-3 p-md-4">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/Logo-2.png" alt="Logo-2" class="mr-auto" style="width:100%; height:auto;">
+                </div>
+                <div class="col-8 text-left">
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-justify" style="color:white;">We obediently and faithfully witness the kingdom of God through the inspiration of the Holy Spirit to humankind in order to address the spiritual, physical and social needs of the people through.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label style="color:#8ca2b4;">Email</label><br>
+                            <p style="color:white;">info.rcisapta.org</p>
+                        </div>
+                        <div class="col">
+                            <label style="color:#8ca2b4;">Call Us</label><br>
+                            <p style="color:white;">+27 17 3415 6789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-auto">
+                    <p style="color:#8ca2b4;">Copyright ©2024 Reformed church International. All Rights Reserved.</p>
+                </div>
+
+                <div class="col"></div>
+
+                <div class="col-auto">
+                    <ul class="navbar-nav flex-row ml-md-auto">
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="#" aria-label="Facebook">
+                                <img src="images/facebook-icon.png">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="#" aria-label="Instagram">
+                                <img src="images/instagram-icon.png">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="#" aria-label="YouTube">
+                                <img src="images/youtube-icon.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
