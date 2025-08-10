@@ -1,9 +1,11 @@
 # RCISA---Websites
-RCISA repository for development projects
+RCISA repository for backend in Django and Python. 
 
 ## Beta Version v0.01
-NOTE: Logic for the website will be implemented soon. 
-This website is still being tested, and more content will be added. Please refer to the links below to directly access them:
+NOTE: The built-in SQLite3 database with Django will be used for now, but will be subject to change when necessary.  
+This is strictly a separate backend being tested for future implementation of the final website. Any content found within this backend is used for testing purposes. 
+
+The front-end template will be shown via static pages in the links below:
 
 ### Links
 1. Home Page: [Home](https://c-cread.github.io/RCISA---Websites/home.html)
@@ -13,5 +15,5 @@ This website is still being tested, and more content will be added. Please refer
 
 ## Credits
 Shingai Dzinotyiweyi
-
+Casper Muziri
 Tanaka Seda 
