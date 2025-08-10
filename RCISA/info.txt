@@ -1,0 +1,9 @@
+Here are the requirements:
+
+User Roles: admin, members, visitors, reverends (pastors)
+Core Features: blog posts, sermons, events, prayer requests
+Frontend Integration: React
+Media Handling: Images, Audio (for sermons), video links
+Deployment: Docker
+Extra Features: Donations, Calendar, Contact Forms, Comments
+
