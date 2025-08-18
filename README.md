@@ -1,9 +1,8 @@
 # RCISA---Websites
-RCISA repository for backend in Django and Python. 
+RCISA repository for frontend in React. 
 
 ## Beta Version v0.01
-NOTE: The built-in SQLite3 database with Django will be used for now, but will be subject to change when necessary.  
-This is strictly a separate backend being tested for future implementation of the final website. Any content found within this backend is used for testing purposes. 
+This is the separate frontend of the website, which will be used to communicate with the backend. Information, such as sermons and events, will be displayed here. Future contents and designs may be subject to change when necessary.
 
 The front-end template will be shown via static pages in the links below:
 
