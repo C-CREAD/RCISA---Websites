@@ -11,7 +11,13 @@ This website is still being tested, and more content will be added. Please refer
 3. Events: Coming Soon...
 4. Media: Coming Soon...
 
-## Credits
-Shingai Dzinotyiweyi
+## Frontend Branch
+To access the frontend repo for testing, [Click Here](https://github.com/C-CREAD/RCISA---Websites/tree/frontend-v0.1)
 
-Tanaka Seda 
+## Backend Branch
+To access the backend repo for testing, [Click Here](https://github.com/C-CREAD/RCISA---Websites/tree/backend-v0.1)
+
+## Credits
+- Shingai Dzinotyiweyi
+- Tanaka Seda 
+- Casper Muziri
