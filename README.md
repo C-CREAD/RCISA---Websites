@@ -1,9 +1,10 @@
 # RCISA---Websites
-RCISA repository for development projects
+RCISA repository for the frontend in React. 
 
 ## Beta Version v0.01
-NOTE: Logic for the website will be implemented soon. 
-This website is still being tested, and more content will be added. Please refer to the links below to directly access them:
+This is the separate frontend of the website, which will be used to communicate with the backend. Information, such as sermons and events, will be displayed here. Future contents and designs may be subject to change when necessary.
+
+The front-end template will be shown via static pages in the links below:
 
 ### Links
 1. Home Page: [Home](https://c-cread.github.io/RCISA---Websites/home.html)
@@ -13,5 +14,5 @@ This website is still being tested, and more content will be added. Please refer
 
 ## Credits
 Shingai Dzinotyiweyi
-
+Casper Muziri
 Tanaka Seda 
