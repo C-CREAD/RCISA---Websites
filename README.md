@@ -1,5 +1,5 @@
 # RCISA---Websites
-RCISA repository for the frontend in React. 
+RCISA branch for the frontend in React. 
 
 ## Beta Version v0.01
 This is the separate frontend of the website, which will be used to communicate with the backend. Information, such as sermons and events, will be displayed here. Future contents and designs may be subject to change when necessary.
